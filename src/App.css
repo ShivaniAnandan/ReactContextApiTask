@@ -1,0 +1,21 @@
+/* Products Styling */
+.card-body{
+    color: #FFFFFF;
+    
+}
+
+/* .cart{
+    background-color: lightgrey; 
+} */
+
+button img{
+    width: 50px;
+    height: 50px;
+}
+
+.price-details p{
+    font-weight: bold;
+}
+.price-details{
+    padding: 3rem;
+}
