@@ -137,7 +137,7 @@ function App() {
     }
 ]
 
-  const[data,setData] = useState(products);
+  
 
   return (
     <>
