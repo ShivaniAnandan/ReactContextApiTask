@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
+import { myContext } from '../App';
 
-const Products = ({ products, cart, setCart }) => {
+const Products = ({ products }) => {
   
+  const [cart,setCart] = useContext(myContext);
 
   const addToCart = (product) => {
     const updatedCart = [...cart, product];

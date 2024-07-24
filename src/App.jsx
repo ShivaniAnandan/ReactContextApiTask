@@ -151,7 +151,7 @@ function App() {
         </div>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/products" element={<Products products={products} cart={cart} setCart={setCart}/>} />
+          <Route path="/products" element={<Products products={products} />} />
           <Route path="/cart" element={<Cart1 />} />
         </Routes>
       </myContext.Provider>
